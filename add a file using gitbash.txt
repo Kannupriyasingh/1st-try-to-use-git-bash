@@ -1,0 +1,73 @@
+step - 1: go to the directory where you made the folder 
+step - 2: make some files into your folder
+step - 3: add that file
+step - 4: commit that file
+step - 5: push that file
+
+
+here i made a file in local disk D with the name "1st try to use gitbash"
+
+and then gone to that folder using "cd command"
+kannu Priya@KANNUPRIYA MINGW32 /d
+$ cd "1st try to use gitbash"
+
+
+kannu Priya@KANNUPRIYA MINGW32 /d/1st try to use gitbash
+$ git init
+Initialized empty Git repository in D:/1st try to use gitbash/.git/
+
+
+copyied the url of the repository from the github and used this command
+kannu Priya@KANNUPRIYA MINGW32 /d/1st try to use gitbash (master)
+$ git remote add origin https://github.com/kannupriyasingh/1st-try-to-use-git-bash.git
+
+
+kannu Priya@KANNUPRIYA MINGW32 /d/1st try to use gitbash (master)
+$ git -v
+unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+
+kannu Priya@KANNUPRIYA MINGW32 /d/1st try to use gitbash (master)
+$ git remote -v
+origin  https://github.com/kannupriyasingh/1st-try-to-use-git-bash.git (fetch)
+origin  https://github.com/kannupriyasingh/1st-try-to-use-git-bash.git (push)
+
+
+kannu Priya@KANNUPRIYA MINGW32 /d/1st try to use gitbash (master)
+$ git add .
+
+kannu Priya@KANNUPRIYA MINGW32 /d/1st try to use gitbash (master)
+$ git add "gitbash first file.txt"
+
+kannu Priya@KANNUPRIYA MINGW32 /d/1st try to use gitbash (master)
+$ git commit -m "first commit"
+[master (root-commit) 06fd37f] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 gitbash first file.txt
+
+kannu Priya@KANNUPRIYA MINGW32 /d/1st try to use gitbash (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+kannu Priya@KANNUPRIYA MINGW32 /d/1st try to use gitbash (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 235 bytes | 78.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Kannupriyasingh/1st-try-to-use-git-bash.git
+To https://github.com/kannupriyasingh/1st-try-to-use-git-bash.git
+ * [new branch]      master -> master
+
+
+now lets add some more files
+
